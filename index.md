@@ -15,5 +15,5 @@
 <h3>What have I done outside of school?</h3>
 <ul>
   <li>While outside of school, I enjoy playing tennis and have been playing it for over 5 years.</li>
-  <li>I also enjoy drawing on my free time. I usually enjoy drawing landscapes and small items I can find around my house.</li>
+  <li>I also enjoy drawing on my free time. I usually enjoy drawing landscapes and trying out different styles of art.</li>
 </ul>
