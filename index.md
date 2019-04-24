@@ -16,5 +16,4 @@
 <ul>
   <li>While outside of school, I enjoy playing tennis and have been playing it for over 5 years.</li>
   <li>I also enjoy drawing on my free time. I usually enjoy drawing landscapes and small items I can find around my house.</li>
-  <li></li>
 </ul>
