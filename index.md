@@ -1,4 +1,3 @@
-<h1>Robotics</h1>
 <h2>Freshman Year</h2>
 <h3>In freshman year, I was on two robotics teams, 750B and 750K.</h3>
 <h4>What have I done on 750B?</h4>
@@ -11,9 +10,4 @@
 <ul>
   <li>I created the original code for the first robot we made. I made sure that I didn't make the same mistakes that I had make on 750B. I also helped build the first iteration of the robot</li>
   <li>I make the final code for the robot. Since it was an edited version of the first code, all I did was fix some controls and made a autonomous code for the bot.</li>
-</ul>
-<h3>What have I done outside of school?</h3>
-<ul>
-  <li>While outside of school, I enjoy playing tennis and have been playing it for over 5 years.</li>
-  <li>I also enjoy drawing on my free time. I usually enjoy drawing landscapes and trying out different styles of art.</li>
 </ul>
