@@ -11,7 +11,7 @@
   <li>I created the original code for the first robot we made. I made sure that I didn't make the same mistakes that I had make on 750B. I also helped build the first iteration of the robot</li>
   <li>I make the final code for the robot. Since it was an edited version of the first code, all I did was fix some controls and made a autonomous code for the bot.</li>
 </ul>
-</bl>
+<bl></bl>
 <h2>Sophomore Year</h2>
 <h3>During my sophomore year, I was a part of 750R</h3>
 <h4>What did I do on 750R?</h4>
