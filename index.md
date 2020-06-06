@@ -20,7 +20,3 @@
   <li>I helped build the bot</li>
   <li>I was the backup coach for the drive team</li>
 </ul>
-
-<script>
-  alert('Hello');
-</script>
