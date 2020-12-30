@@ -19,4 +19,5 @@
   <li>I helped with/did the notebook.</li>
   <li>I helped build the bot</li>
   <li>I was the backup coach for the drive team</li>
+  <li>I helped code the autonomous period for competitions</li>
 </ul>
