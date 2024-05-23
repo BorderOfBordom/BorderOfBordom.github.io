@@ -1,83 +1,76 @@
-/* Reset some default styling */
-body, h1, h2, h3, p, ul {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: Arial, sans-serif;
-}
-
-/* Navigation */
-nav {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-nav h1 {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
 }
 
 nav ul {
     list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin: 0 1rem;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
-/* Hero Section */
-.hero {
-    background-image: url('hero-image.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 200px 0;
-    text-align: center;
+main {
+    padding: 2rem;
 }
 
-.highlight {
-    color: #ff6f61;
+section {
+    margin-bottom: 2rem;
 }
 
-.cta-button {
-    display: inline-block;
-    background-color: #ff6f61;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 20px;
-}
-
-/* Projects Section */
-.projects {
-    padding: 80px 0;
-}
-
-.projects h2 {
-    text-align: center;
-}
-
-/* Footer */
 footer {
-    background-color: #333;
-    color: white;
+    background: #333;
+    color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
-/* Add more styling for other sections as needed */
+.project {
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
