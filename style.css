@@ -44,33 +44,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
-.project {
-    margin-bottom: 1rem;
-}
-
-form label {
-    display: block;
-    margin-top: 1rem;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-}
-
-form button {
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-@media (max-width: 600px) {
-    nav ul {
-        flex-direction: column;
-    }
-}
