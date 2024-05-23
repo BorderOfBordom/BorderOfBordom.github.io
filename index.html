@@ -3,45 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Programmer's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="container">
-                <h1>Your Name</h1>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
+            <ul>
+                <li><a href="#landing">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <h2>Welcome to My Portfolio</h2>
-            <p>I'm a passionate <span class="highlight">web developer</span> ready to take on new challenges.</p>
-            <a href="#projects" class="cta-button">View Projects</a>
-        </div>
-    </section>
+    <main>
+        <section id="landing">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my projects and skills.</p>
+        </section>
 
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <!-- Add project cards here -->
-        </div>
-    </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a passionate programmer skilled in various languages and technologies.</p>
+        </section>
 
-    <!-- Add more sections for About, Contact, etc. -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p id="form-response"></p>
+        </section>
+    </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2023 Your Name. All rights reserved.</p>
-        </div>
+        <p>&copy; 2024 Programmer's Portfolio</p>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
